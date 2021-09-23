@@ -1,50 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lab 01</title>
-        <style>
-            main 
-            {
-                background-color: darkgrey;
-            }
-        </style>
+        <title>Notes</title>
     </head>
     <body>
-        <header></header>
         <main>
-            <h1>Class 1 Lab</h1>
-            <p style="color: rgb(255, 238, 0); background-color: blueviolet;">
-                What's your name?
-            </p>
-            <p style="color: crimson; background-color: rgb(43, 46, 226);">
-                What day is it today?
-            </p>
-            <p style="color: rgb(2, 255, 158); background-color: rgb(226, 153, 43);">
-                What's todays date?
-            </p>
-            <p style="color: rgb(103, 83, 235); background-color: rgb(43, 226, 43);">
-                What time is it?
-            </p>
+            <form>
+                <fieldset>
+                    <label>Name:</label>
+                    <input type="text">
+                    <label>Email:</label>
+                    <input type="text">
+                    <button>Submit</button>
+                </fieldset>
+                <textarea name="Notes" id="" cols="30" rows="10"></textarea>
+                <input type="Time">
+            </form>
         </main>
-        <footer></footer>
     </body>
-    <script>
-            let name = prompt("What's your name?");
-            alert("Welcome " + name);
-
-            let day = prompt("What day is it today?");
-            alert("Hi! "  + name);
-            alert('Today is '  + day);
- 
-            let date = prompt("What's todays date?");
-            alert("Hi! "  + name);
-            alert('Today is '  + day);
-            alert("Today's date is " + date);
-
-            let time = prompt("What time is it?");
-            alert("Hi! "  + name);
-            alert('Today is '  + day);
-            alert("Today's date is " + date);
-            alert("The time is " + time);
-    </script>
 </html>
